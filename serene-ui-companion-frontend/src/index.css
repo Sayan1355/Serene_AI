@@ -1,0 +1,99 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;     /* Light mode: near-white background */
+    --foreground: 0 0% 10%;     /* Light mode: near-black text */
+    
+    --card: 0 0% 100%;          /* Light mode: white cards */
+    --card-foreground: 0 0% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    
+    --primary: 0 0% 10%;        /* Light mode: near-black primary elements */
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 0 0% 92%;      /* Light mode: light gray secondary */
+    --secondary-foreground: 0 0% 10%;
+    
+    --muted: 0 0% 92%;          /* Light mode: light gray muted */
+    --muted-foreground: 0 0% 40%;
+    
+    --accent: 0 0% 88%;         /* Light mode: slightly darker accent */
+    --accent-foreground: 0 0% 10%;
+    
+    --destructive: 0 70% 50%;   /* Light mode: brighter red for errors */
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 0 0% 86%;         /* Light mode: medium gray borders */
+    --input: 0 0% 86%;
+    --ring: 0 0% 80%;
+    
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 0 0% 7%;      /* Dark mode: nearly black, but softer for the eyes */
+    --foreground: 0 0% 95%;     /* Dark mode: nearly white, just off-pure for easy reading */
+
+    --card: 0 0% 9%;            /* Dark mode: slight variation for card backgrounds */
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 0% 94%;        /* Dark mode: off-white for primary text/buttons */
+    --primary-foreground: 0 0% 10%;
+
+    --secondary: 0 0% 15%;      /* Dark mode: slightly lighter than bg for contrast */
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 0 0% 13%;          /* Dark mode: muted backgrounds (low contrast) */
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 18%;         /* Dark mode: accent is a soft dark */
+    --accent-foreground: 0 0% 93%;
+
+    --destructive: 0 60% 40%;   /* Dark mode: subdued red for errors, not saturated */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 90%;         /* Dark mode: near-white borders: soft and gentle */
+    --input: 0 0% 90%;          /* Dark mode: match border/input color */
+    --ring: 0 0% 90%;           /* Dark mode: any ring/highlight is also near-white */
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  .glass {
+    @apply backdrop-blur-md bg-white/5 border border-white/20;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-foreground to-foreground bg-clip-text text-transparent;
+  }
+  
+  .chat-animation-in {
+    animation: fadeSlideIn 0.4s ease-out forwards;
+  }
+  
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

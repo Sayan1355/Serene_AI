@@ -1,0 +1,11 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+tensorflow
+numpy>=1.26.0
+pydantic>=2.0.0
+python-dotenv
+google-generativeai
+wandb
+pyjwt
+passlib[bcrypt]
+python-multipart

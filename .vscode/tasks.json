@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Backend Server",
+			"type": "shell",
+			"command": "cd /home/theh-shadowed/Projects/Serene-main/serena-backend && /home/theh-shadowed/Projects/Serene-main/.venv/bin/python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

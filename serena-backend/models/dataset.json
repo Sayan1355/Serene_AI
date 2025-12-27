@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How are you feeling today?",
+        "Hi there! I'm here to listen. How can I support you?",
+        "Hey! I'm glad you're here. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I have to go"
+      ],
+      "responses": [
+        "Take care of yourself. I'm here whenever you need me.",
+        "Goodbye! Remember to be kind to yourself.",
+        "See you later. Wishing you peace and comfort."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "That helps",
+        "I appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're very welcome. I'm here for you anytime.",
+        "I'm glad I could help. Take care!",
+        "Anytime! Remember, you're not alone."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm feeling anxious",
+        "I'm worried",
+        "I can't stop worrying",
+        "I feel stressed",
+        "I'm having a panic attack",
+        "My heart is racing"
+      ],
+      "responses": [
+        "I hear you. Anxiety can feel overwhelming. Try taking slow, deep breaths.",
+        "It's okay to feel this way. Let's try grounding yourself in the present moment.",
+        "I'm here with you. Remember, this feeling will pass."
+      ]
+    },
+    {
+      "tag": "sadness",
+      "patterns": [
+        "I'm sad",
+        "I feel down",
+        "I'm depressed",
+        "I feel hopeless",
+        "I'm feeling low",
+        "Everything feels heavy"
+      ],
+      "responses": [
+        "I'm sorry you're feeling this way. Your feelings are valid.",
+        "It's okay to feel sad. Be gentle with yourself right now.",
+        "I hear you. Remember, it's okay to not be okay sometimes."
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "I'm stressed out",
+        "I'm overwhelmed",
+        "Too much to handle",
+        "I can't cope",
+        "Everything is too much"
+      ],
+      "responses": [
+        "That sounds really difficult. Let's take this one step at a time.",
+        "It's understandable to feel overwhelmed. What would help you feel a bit lighter?",
+        "You're carrying a lot. Remember to breathe and take breaks when you can."
+      ]
+    },
+    {
+      "tag": "lonely",
+      "patterns": [
+        "I feel lonely",
+        "I'm alone",
+        "Nobody understands me",
+        "I have no friends",
+        "I feel isolated"
+      ],
+      "responses": [
+        "Loneliness can be really hard. I'm here with you right now.",
+        "You're not alone in feeling this way. Many people experience loneliness.",
+        "I hear you. Reaching out like this is a brave step."
+      ]
+    },
+    {
+      "tag": "sleep_issues",
+      "patterns": [
+        "I can't sleep",
+        "I have insomnia",
+        "I'm tired but can't rest",
+        "I keep waking up",
+        "Sleep problems"
+      ],
+      "responses": [
+        "Sleep troubles can be exhausting. Have you tried creating a calming bedtime routine?",
+        "That must be frustrating. Sometimes gentle breathing exercises before bed can help.",
+        "I understand. Quality rest is so important for wellbeing."
+      ]
+    }
+  ]
+}
