@@ -1,0 +1,267 @@
+{
+  "app": {
+    "name": "SERENE",
+    "tagline": "Your Mental Wellness Companion"
+  },
+  "nav": {
+    "home": "Home",
+    "chat": "Chat",
+    "journal": "Journal",
+    "mood": "Mood Tracker",
+    "goals": "Goals",
+    "breathing": "Breathing",
+    "emergency": "Emergency",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "loginButton": "Login",
+    "signupButton": "Create Account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginHere": "Login here",
+    "signupHere": "Sign up here",
+    "welcome": "Welcome to SERENE",
+    "createAccount": "Create your account",
+    "loginSuccess": "Login successful!",
+    "signupSuccess": "Account created successfully!",
+    "loginError": "Login failed. Please check your credentials.",
+    "signupError": "Signup failed. Please try again."
+  },
+  "landing": {
+    "hero": {
+      "title": "Your Mental Wellness Journey Starts Here",
+      "subtitle": "AI-powered support for your emotional well-being, available 24/7",
+      "cta": "Get Started Free"
+    },
+    "features": {
+      "title": "Features Designed for You",
+      "aiChat": {
+        "title": "AI Companion",
+        "description": "Chat with an empathetic AI trained to support your mental health"
+      },
+      "moodTracking": {
+        "title": "Mood Tracking",
+        "description": "Monitor your emotional patterns and gain insights over time"
+      },
+      "journaling": {
+        "title": "Guided Journaling",
+        "description": "Express yourself freely with prompts and privacy"
+      },
+      "breathing": {
+        "title": "Breathing Exercises",
+        "description": "Reduce stress and anxiety with guided breathing techniques"
+      },
+      "goals": {
+        "title": "Goal Setting",
+        "description": "Set and track your mental wellness goals"
+      },
+      "crisis": {
+        "title": "Crisis Support",
+        "description": "Immediate access to emergency resources when you need them most"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 SERENE. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "chat": {
+    "greeting": "Hi there, I'm Serene, your mental health assistant. How are you feeling today?",
+    "inputPlaceholder": "Type your message...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "newChat": "New Chat",
+    "deleteChat": "Delete Chat",
+    "confirmDelete": "Are you sure you want to delete this conversation?",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "errorFetch": "Failed to fetch assistant response. Please try again.",
+    "errorGeneric": "Sorry, I'm having trouble connecting to my knowledge. Please try again later."
+  },
+  "goals": {
+    "title": "Your Mental Wellness Goals",
+    "addGoal": "Add New Goal",
+    "createGoal": "Create a New Goal",
+    "editGoal": "Edit Goal",
+    "goalTitle": "Goal Title",
+    "description": "Description",
+    "category": "Category",
+    "targetValue": "Target Value",
+    "currentValue": "Current Value",
+    "unit": "Unit",
+    "startDate": "Start Date",
+    "targetDate": "Target Date",
+    "status": "Status",
+    "save": "Save Goal",
+    "cancel": "Cancel",
+    "update": "Update",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this goal?",
+    "categories": {
+      "mood": "Mood",
+      "exercise": "Exercise",
+      "meditation": "Meditation",
+      "journal": "Journal",
+      "social": "Social",
+      "sleep": "Sleep",
+      "therapy": "Therapy",
+      "other": "Other"
+    },
+    "statusOptions": {
+      "active": "Active",
+      "completed": "Completed",
+      "all": "All"
+    },
+    "stats": {
+      "total": "Total Goals",
+      "completed": "Completed",
+      "active": "Active",
+      "avgProgress": "Avg Progress"
+    },
+    "progress": "Progress",
+    "noGoals": "No goals yet. Create your first goal to start tracking!",
+    "createSuccess": "Goal created successfully!",
+    "updateSuccess": "Goal updated successfully!",
+    "deleteSuccess": "Goal deleted successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "journal": {
+    "title": "My Journal",
+    "newEntry": "New Entry",
+    "writeEntry": "Write your thoughts...",
+    "save": "Save Entry",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this entry?",
+    "noEntries": "No journal entries yet. Start writing to express yourself!",
+    "savedSuccess": "Journal entry saved!",
+    "deleteSuccess": "Journal entry deleted!",
+    "error": "Failed to save entry. Please try again."
+  },
+  "mood": {
+    "title": "Mood Tracker",
+    "logMood": "Log Your Mood",
+    "howFeeling": "How are you feeling?",
+    "addNote": "Add a note (optional)",
+    "saveMood": "Save Mood",
+    "moodHistory": "Mood History",
+    "noEntries": "No mood entries yet. Start tracking to see your patterns!",
+    "moods": {
+      "happy": "Happy",
+      "calm": "Calm",
+      "anxious": "Anxious",
+      "sad": "Sad",
+      "angry": "Angry"
+    },
+    "savedSuccess": "Mood logged successfully!",
+    "error": "Failed to log mood. Please try again."
+  },
+  "breathing": {
+    "title": "Breathing Exercises",
+    "subtitle": "Take a moment to breathe and relax",
+    "inhale": "Inhale",
+    "hold": "Hold",
+    "exhale": "Exhale",
+    "start": "Start Exercise",
+    "stop": "Stop",
+    "duration": "Duration",
+    "minutes": "minutes",
+    "technique": "Technique",
+    "techniques": {
+      "box": "Box Breathing",
+      "478": "4-7-8 Breathing",
+      "deep": "Deep Breathing"
+    }
+  },
+  "emergency": {
+    "title": "Emergency Resources",
+    "subtitle": "If you're in crisis, please reach out for immediate help",
+    "crisis": {
+      "title": "Crisis Hotlines",
+      "suicide": "988 Suicide & Crisis Lifeline",
+      "suicideDesc": "Free, confidential support 24/7",
+      "call": "Call Now",
+      "text": "Text",
+      "crisisText": "Crisis Text Line",
+      "crisisTextDesc": "Text HOME to 741741"
+    },
+    "local": {
+      "title": "Local Emergency",
+      "call911": "Call 911",
+      "call911Desc": "For immediate medical or safety emergency"
+    },
+    "resources": {
+      "title": "Additional Resources",
+      "samhsa": "SAMHSA National Helpline",
+      "samhsaDesc": "1-800-662-4357 - Mental health & substance abuse",
+      "nami": "NAMI HelpLine",
+      "namiDesc": "1-800-950-6264 - Information and support"
+    }
+  },
+  "crisis": {
+    "detected": "We're Here For You",
+    "message": "It sounds like you might be going through a really difficult time. Your safety is important. Please consider reaching out to someone who can help.",
+    "immediate": "Immediate Help",
+    "resources": "Emergency Resources",
+    "breathing": "Try Breathing Exercise",
+    "grounding": "Grounding Technique",
+    "groundingText": "Try the 5-4-3-2-1 technique: Name 5 things you see, 4 you can touch, 3 you hear, 2 you smell, and 1 you taste.",
+    "close": "Close"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "account": "Account",
+    "deleteAccount": "Delete Account",
+    "deleteWarning": "This action cannot be undone",
+    "logout": "Logout",
+    "saveSuccess": "Settings saved!",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "hi": "हिन्दी",
+      "fr": "Français",
+      "bn": "বাংলা"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "date": "Date",
+    "time": "Time",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "week": "This Week",
+    "month": "This Month",
+    "year": "This Year",
+    "all": "All"
+  }
+}

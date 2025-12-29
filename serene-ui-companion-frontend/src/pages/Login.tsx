@@ -25,7 +25,7 @@ const Login = () => {
     try {
       await login(email, password);
       toast({ title: "Welcome back!", description: "You've successfully logged in." });
-      navigate("/chat");
+      navigate("/dashboard");
     } catch (error) {
       toast({ title: "Error", description: "Invalid credentials", variant: "destructive" });
     }
@@ -36,7 +36,7 @@ const Login = () => {
     try {
       await loginWithPhone(phone, otp);
       toast({ title: "Welcome back!", description: "You've successfully logged in." });
-      navigate("/chat");
+      navigate("/dashboard");
     } catch (error) {
       toast({ title: "Error", description: "Invalid phone or OTP", variant: "destructive" });
     }

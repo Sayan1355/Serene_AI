@@ -1,0 +1,267 @@
+{
+  "app": {
+    "name": "SERENE",
+    "tagline": "Votre Compagnon de Bien-être Mental"
+  },
+  "nav": {
+    "home": "Accueil",
+    "chat": "Chat",
+    "journal": "Journal",
+    "mood": "Humeur",
+    "goals": "Objectifs",
+    "breathing": "Respiration",
+    "emergency": "Urgence",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "auth": {
+    "login": "Connexion",
+    "signup": "S'inscrire",
+    "email": "Email",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "loginButton": "Se connecter",
+    "signupButton": "Créer un compte",
+    "noAccount": "Vous n'avez pas de compte?",
+    "haveAccount": "Vous avez déjà un compte?",
+    "loginHere": "Connectez-vous ici",
+    "signupHere": "Inscrivez-vous ici",
+    "welcome": "Bienvenue sur SERENE",
+    "createAccount": "Créez votre compte",
+    "loginSuccess": "Connexion réussie!",
+    "signupSuccess": "Compte créé avec succès!",
+    "loginError": "Échec de la connexion. Vérifiez vos identifiants.",
+    "signupError": "Échec de l'inscription. Veuillez réessayer."
+  },
+  "landing": {
+    "hero": {
+      "title": "Votre Voyage de Bien-être Mental Commence Ici",
+      "subtitle": "Support alimenté par l'IA pour votre bien-être émotionnel, disponible 24/7",
+      "cta": "Commencer Gratuitement"
+    },
+    "features": {
+      "title": "Fonctionnalités Conçues pour Vous",
+      "aiChat": {
+        "title": "Compagnon IA",
+        "description": "Discutez avec une IA empathique formée pour soutenir votre santé mentale"
+      },
+      "moodTracking": {
+        "title": "Suivi de l'humeur",
+        "description": "Surveillez vos schémas émotionnels et obtenez des informations au fil du temps"
+      },
+      "journaling": {
+        "title": "Journal Guidé",
+        "description": "Exprimez-vous librement avec des invites et de la confidentialité"
+      },
+      "breathing": {
+        "title": "Exercices de Respiration",
+        "description": "Réduisez le stress et l'anxiété avec des techniques de respiration guidées"
+      },
+      "goals": {
+        "title": "Définition d'Objectifs",
+        "description": "Définissez et suivez vos objectifs de bien-être mental"
+      },
+      "crisis": {
+        "title": "Soutien en Crise",
+        "description": "Accès immédiat aux ressources d'urgence quand vous en avez le plus besoin"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 SERENE. Tous droits réservés.",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  },
+  "chat": {
+    "greeting": "Bonjour, je suis Serene, votre assistant de santé mentale. Comment vous sentez-vous aujourd'hui?",
+    "inputPlaceholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "thinking": "Réflexion...",
+    "newChat": "Nouveau Chat",
+    "deleteChat": "Supprimer le Chat",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette conversation?",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "errorFetch": "Échec de la récupération de la réponse. Veuillez réessayer.",
+    "errorGeneric": "Désolé, j'ai du mal à me connecter à mes connaissances. Veuillez réessayer plus tard."
+  },
+  "goals": {
+    "title": "Vos Objectifs de Bien-être Mental",
+    "addGoal": "Ajouter un Nouvel Objectif",
+    "createGoal": "Créer un Nouvel Objectif",
+    "editGoal": "Modifier l'Objectif",
+    "goalTitle": "Titre de l'Objectif",
+    "description": "Description",
+    "category": "Catégorie",
+    "targetValue": "Valeur Cible",
+    "currentValue": "Valeur Actuelle",
+    "unit": "Unité",
+    "startDate": "Date de Début",
+    "targetDate": "Date Cible",
+    "status": "Statut",
+    "save": "Enregistrer l'Objectif",
+    "cancel": "Annuler",
+    "update": "Mettre à jour",
+    "delete": "Supprimer",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet objectif?",
+    "categories": {
+      "mood": "Humeur",
+      "exercise": "Exercice",
+      "meditation": "Méditation",
+      "journal": "Journal",
+      "social": "Social",
+      "sleep": "Sommeil",
+      "therapy": "Thérapie",
+      "other": "Autre"
+    },
+    "statusOptions": {
+      "active": "Actif",
+      "completed": "Terminé",
+      "all": "Tous"
+    },
+    "stats": {
+      "total": "Objectifs Totaux",
+      "completed": "Terminés",
+      "active": "Actifs",
+      "avgProgress": "Progrès Moyen"
+    },
+    "progress": "Progrès",
+    "noGoals": "Pas encore d'objectifs. Créez votre premier objectif pour commencer le suivi!",
+    "createSuccess": "Objectif créé avec succès!",
+    "updateSuccess": "Objectif mis à jour avec succès!",
+    "deleteSuccess": "Objectif supprimé avec succès!",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+  },
+  "journal": {
+    "title": "Mon Journal",
+    "newEntry": "Nouvelle Entrée",
+    "writeEntry": "Écrivez vos pensées...",
+    "save": "Enregistrer l'Entrée",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette entrée?",
+    "noEntries": "Pas encore d'entrées de journal. Commencez à écrire pour vous exprimer!",
+    "savedSuccess": "Entrée de journal enregistrée!",
+    "deleteSuccess": "Entrée de journal supprimée!",
+    "error": "Échec de l'enregistrement de l'entrée. Veuillez réessayer."
+  },
+  "mood": {
+    "title": "Suivi de l'Humeur",
+    "logMood": "Enregistrer Votre Humeur",
+    "howFeeling": "Comment vous sentez-vous?",
+    "addNote": "Ajouter une note (facultatif)",
+    "saveMood": "Enregistrer l'Humeur",
+    "moodHistory": "Historique de l'Humeur",
+    "noEntries": "Pas encore d'entrées d'humeur. Commencez le suivi pour voir vos schémas!",
+    "moods": {
+      "happy": "Heureux",
+      "calm": "Calme",
+      "anxious": "Anxieux",
+      "sad": "Triste",
+      "angry": "En Colère"
+    },
+    "savedSuccess": "Humeur enregistrée avec succès!",
+    "error": "Échec de l'enregistrement de l'humeur. Veuillez réessayer."
+  },
+  "breathing": {
+    "title": "Exercices de Respiration",
+    "subtitle": "Prenez un moment pour respirer et vous détendre",
+    "inhale": "Inspirer",
+    "hold": "Retenir",
+    "exhale": "Expirer",
+    "start": "Commencer l'Exercice",
+    "stop": "Arrêter",
+    "duration": "Durée",
+    "minutes": "minutes",
+    "technique": "Technique",
+    "techniques": {
+      "box": "Respiration en Carré",
+      "478": "Respiration 4-7-8",
+      "deep": "Respiration Profonde"
+    }
+  },
+  "emergency": {
+    "title": "Ressources d'Urgence",
+    "subtitle": "Si vous êtes en crise, veuillez demander de l'aide immédiate",
+    "crisis": {
+      "title": "Lignes de Crise",
+      "suicide": "988 Ligne de Vie pour le Suicide et la Crise",
+      "suicideDesc": "Support gratuit et confidentiel 24/7",
+      "call": "Appeler Maintenant",
+      "text": "Texto",
+      "crisisText": "Ligne de Texto de Crise",
+      "crisisTextDesc": "Envoyez HOME au 741741"
+    },
+    "local": {
+      "title": "Urgence Locale",
+      "call911": "Appeler le 911",
+      "call911Desc": "Pour une urgence médicale ou de sécurité immédiate"
+    },
+    "resources": {
+      "title": "Ressources Supplémentaires",
+      "samhsa": "Ligne d'Assistance Nationale SAMHSA",
+      "samhsaDesc": "1-800-662-4357 - Santé mentale et abus de substances",
+      "nami": "Ligne d'Assistance NAMI",
+      "namiDesc": "1-800-950-6264 - Information et soutien"
+    }
+  },
+  "crisis": {
+    "detected": "Nous Sommes Là Pour Vous",
+    "message": "Il semble que vous traversiez une période vraiment difficile. Votre sécurité est importante. Veuillez envisager de contacter quelqu'un qui peut vous aider.",
+    "immediate": "Aide Immédiate",
+    "resources": "Ressources d'Urgence",
+    "breathing": "Essayer l'Exercice de Respiration",
+    "grounding": "Technique d'Ancrage",
+    "groundingText": "Essayez la technique 5-4-3-2-1: Nommez 5 choses que vous voyez, 4 que vous pouvez toucher, 3 que vous entendez, 2 que vous sentez et 1 que vous goûtez.",
+    "close": "Fermer"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "themeLight": "Clair",
+    "themeDark": "Sombre",
+    "themeSystem": "Système",
+    "notifications": "Notifications",
+    "privacy": "Confidentialité",
+    "account": "Compte",
+    "deleteAccount": "Supprimer le Compte",
+    "deleteWarning": "Cette action ne peut pas être annulée",
+    "logout": "Déconnexion",
+    "saveSuccess": "Paramètres enregistrés!",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "hi": "हिन्दी",
+      "fr": "Français",
+      "bn": "বাংলা"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "date": "Date",
+    "time": "Heure",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "week": "Cette Semaine",
+    "month": "Ce Mois",
+    "year": "Cette Année",
+    "all": "Tous"
+  }
+}

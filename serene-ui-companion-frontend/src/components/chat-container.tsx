@@ -3,6 +3,8 @@ import { useRef, useEffect, useState } from "react";
 import { ChatMessage } from "@/components/chat-message";
 import { ChatInput } from "@/components/chat-input";
 import { useToast } from "@/hooks/use-toast";
+import { CrisisDetectionModal, detectCrisisInMessage } from "@/components/CrisisDetectionModal";
+import { useTranslation } from "react-i18next";
 
 type Message = {
   id: number;
@@ -10,22 +12,22 @@ type Message = {
   role: "user" | "assistant";
 };
 
-const INITIAL_GREETING = "Hi there, I'm Serene, your mental health assistant. How are you feeling today?";
-
 interface ChatContainerProps {
   conversationId: number | null;
   onConversationCreated?: (id: number) => void;
 }
 
 export function ChatContainer({ conversationId, onConversationCreated }: ChatContainerProps) {
+  const { t } = useTranslation();
   const [messages, setMessages] = useState<Message[]>([
     { 
       id: 0, 
       role: "assistant", 
-      content: INITIAL_GREETING
+      content: t('chat.greeting')
     }
   ]);
   const [isLoading, setIsLoading] = useState(false);
+  const [showCrisisModal, setShowCrisisModal] = useState(false);
   const scrollAreaRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
 
@@ -35,9 +37,9 @@ export function ChatContainer({ conversationId, onConversationCreated }: ChatCon
       loadConversation(conversationId);
     } else {
       // Reset to initial greeting for new conversation
-      setMessages([{ id: 0, role: "assistant", content: INITIAL_GREETING }]);
+      setMessages([{ id: 0, role: "assistant", content: t('chat.greeting') }]);
     }
-  }, [conversationId]);
+  }, [conversationId, t]);
 
   const loadConversation = async (convId: number) => {
     try {
@@ -109,6 +111,11 @@ export function ChatContainer({ conversationId, onConversationCreated }: ChatCon
   };
 
   const handleSendMessage = async (content: string) => {
+    // Crisis detection - check message before proceeding
+    if (detectCrisisInMessage(content)) {
+      setShowCrisisModal(true);
+    }
+    
     // Add user message optimistically
     const userMessage = {
       id: messages.length,
@@ -168,6 +175,12 @@ export function ChatContainer({ conversationId, onConversationCreated }: ChatCon
       <div className="sticky bottom-0 left-0 w-full max-w-3xl bg-background/95 backdrop-blur-xl z-10 border-t border-border">
         <ChatInput onSend={handleSendMessage} isLoading={isLoading} />
       </div>
+      
+      {/* Crisis Detection Modal */}
+      <CrisisDetectionModal 
+        isOpen={showCrisisModal} 
+        onClose={() => setShowCrisisModal(false)} 
+      />
     </div>
   );
 }

@@ -1,0 +1,267 @@
+{
+  "app": {
+    "name": "SERENE",
+    "tagline": "Tu Compañero de Bienestar Mental"
+  },
+  "nav": {
+    "home": "Inicio",
+    "chat": "Chat",
+    "journal": "Diario",
+    "mood": "Estado de Ánimo",
+    "goals": "Objetivos",
+    "breathing": "Respiración",
+    "emergency": "Emergencia",
+    "settings": "Configuración",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "email": "Correo Electrónico",
+    "username": "Nombre de Usuario",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "signupButton": "Crear Cuenta",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "loginHere": "Inicia sesión aquí",
+    "signupHere": "Regístrate aquí",
+    "welcome": "Bienvenido a SERENE",
+    "createAccount": "Crea tu cuenta",
+    "loginSuccess": "¡Inicio de sesión exitoso!",
+    "signupSuccess": "¡Cuenta creada exitosamente!",
+    "loginError": "Error al iniciar sesión. Verifica tus credenciales.",
+    "signupError": "Error al registrarse. Intenta de nuevo."
+  },
+  "landing": {
+    "hero": {
+      "title": "Tu Viaje de Bienestar Mental Comienza Aquí",
+      "subtitle": "Apoyo impulsado por IA para tu bienestar emocional, disponible 24/7",
+      "cta": "Comenzar Gratis"
+    },
+    "features": {
+      "title": "Características Diseñadas para Ti",
+      "aiChat": {
+        "title": "Compañero IA",
+        "description": "Chatea con una IA empática entrenada para apoyar tu salud mental"
+      },
+      "moodTracking": {
+        "title": "Seguimiento de Ánimo",
+        "description": "Monitorea tus patrones emocionales y obtén información con el tiempo"
+      },
+      "journaling": {
+        "title": "Diario Guiado",
+        "description": "Exprésate libremente con indicaciones y privacidad"
+      },
+      "breathing": {
+        "title": "Ejercicios de Respiración",
+        "description": "Reduce el estrés y la ansiedad con técnicas de respiración guiadas"
+      },
+      "goals": {
+        "title": "Establecimiento de Objetivos",
+        "description": "Establece y rastrea tus objetivos de bienestar mental"
+      },
+      "crisis": {
+        "title": "Apoyo en Crisis",
+        "description": "Acceso inmediato a recursos de emergencia cuando más los necesites"
+      }
+    },
+    "footer": {
+      "copyright": "© 2025 SERENE. Todos los derechos reservados.",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    }
+  },
+  "chat": {
+    "greeting": "Hola, soy Serene, tu asistente de salud mental. ¿Cómo te sientes hoy?",
+    "inputPlaceholder": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "thinking": "Pensando...",
+    "newChat": "Nuevo Chat",
+    "deleteChat": "Eliminar Chat",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta conversación?",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "errorFetch": "Error al obtener respuesta. Intenta de nuevo.",
+    "errorGeneric": "Lo siento, tengo problemas para conectarme. Intenta más tarde."
+  },
+  "goals": {
+    "title": "Tus Objetivos de Bienestar Mental",
+    "addGoal": "Agregar Nuevo Objetivo",
+    "createGoal": "Crear un Nuevo Objetivo",
+    "editGoal": "Editar Objetivo",
+    "goalTitle": "Título del Objetivo",
+    "description": "Descripción",
+    "category": "Categoría",
+    "targetValue": "Valor Objetivo",
+    "currentValue": "Valor Actual",
+    "unit": "Unidad",
+    "startDate": "Fecha de Inicio",
+    "targetDate": "Fecha Objetivo",
+    "status": "Estado",
+    "save": "Guardar Objetivo",
+    "cancel": "Cancelar",
+    "update": "Actualizar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este objetivo?",
+    "categories": {
+      "mood": "Estado de Ánimo",
+      "exercise": "Ejercicio",
+      "meditation": "Meditación",
+      "journal": "Diario",
+      "social": "Social",
+      "sleep": "Sueño",
+      "therapy": "Terapia",
+      "other": "Otro"
+    },
+    "statusOptions": {
+      "active": "Activo",
+      "completed": "Completado",
+      "all": "Todos"
+    },
+    "stats": {
+      "total": "Objetivos Totales",
+      "completed": "Completados",
+      "active": "Activos",
+      "avgProgress": "Progreso Promedio"
+    },
+    "progress": "Progreso",
+    "noGoals": "Aún no hay objetivos. ¡Crea tu primer objetivo para comenzar a rastrear!",
+    "createSuccess": "¡Objetivo creado exitosamente!",
+    "updateSuccess": "¡Objetivo actualizado exitosamente!",
+    "deleteSuccess": "¡Objetivo eliminado exitosamente!",
+    "error": "Algo salió mal. Intenta de nuevo."
+  },
+  "journal": {
+    "title": "Mi Diario",
+    "newEntry": "Nueva Entrada",
+    "writeEntry": "Escribe tus pensamientos...",
+    "save": "Guardar Entrada",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar esta entrada?",
+    "noEntries": "Aún no hay entradas de diario. ¡Comienza a escribir para expresarte!",
+    "savedSuccess": "¡Entrada de diario guardada!",
+    "deleteSuccess": "¡Entrada de diario eliminada!",
+    "error": "Error al guardar entrada. Intenta de nuevo."
+  },
+  "mood": {
+    "title": "Rastreador de Estado de Ánimo",
+    "logMood": "Registra tu Estado de Ánimo",
+    "howFeeling": "¿Cómo te sientes?",
+    "addNote": "Agregar una nota (opcional)",
+    "saveMood": "Guardar Estado de Ánimo",
+    "moodHistory": "Historial de Estado de Ánimo",
+    "noEntries": "Aún no hay entradas de ánimo. ¡Comienza a rastrear para ver tus patrones!",
+    "moods": {
+      "happy": "Feliz",
+      "calm": "Tranquilo",
+      "anxious": "Ansioso",
+      "sad": "Triste",
+      "angry": "Enojado"
+    },
+    "savedSuccess": "¡Estado de ánimo registrado exitosamente!",
+    "error": "Error al registrar estado de ánimo. Intenta de nuevo."
+  },
+  "breathing": {
+    "title": "Ejercicios de Respiración",
+    "subtitle": "Tómate un momento para respirar y relajarte",
+    "inhale": "Inhalar",
+    "hold": "Mantener",
+    "exhale": "Exhalar",
+    "start": "Comenzar Ejercicio",
+    "stop": "Detener",
+    "duration": "Duración",
+    "minutes": "minutos",
+    "technique": "Técnica",
+    "techniques": {
+      "box": "Respiración en Caja",
+      "478": "Respiración 4-7-8",
+      "deep": "Respiración Profunda"
+    }
+  },
+  "emergency": {
+    "title": "Recursos de Emergencia",
+    "subtitle": "Si estás en crisis, por favor busca ayuda inmediata",
+    "crisis": {
+      "title": "Líneas de Crisis",
+      "suicide": "988 Línea de Suicidio y Crisis",
+      "suicideDesc": "Apoyo gratuito y confidencial 24/7",
+      "call": "Llamar Ahora",
+      "text": "Texto",
+      "crisisText": "Línea de Texto de Crisis",
+      "crisisTextDesc": "Envía HOME al 741741"
+    },
+    "local": {
+      "title": "Emergencia Local",
+      "call911": "Llamar al 911",
+      "call911Desc": "Para emergencia médica o de seguridad inmediata"
+    },
+    "resources": {
+      "title": "Recursos Adicionales",
+      "samhsa": "Línea de Ayuda Nacional SAMHSA",
+      "samhsaDesc": "1-800-662-4357 - Salud mental y abuso de sustancias",
+      "nami": "Línea de Ayuda NAMI",
+      "namiDesc": "1-800-950-6264 - Información y apoyo"
+    }
+  },
+  "crisis": {
+    "detected": "Estamos Aquí Para Ti",
+    "message": "Parece que podrías estar pasando por un momento muy difícil. Tu seguridad es importante. Por favor considera comunicarte con alguien que pueda ayudarte.",
+    "immediate": "Ayuda Inmediata",
+    "resources": "Recursos de Emergencia",
+    "breathing": "Prueba Ejercicio de Respiración",
+    "grounding": "Técnica de Anclaje",
+    "groundingText": "Prueba la técnica 5-4-3-2-1: Nombra 5 cosas que ves, 4 que puedes tocar, 3 que escuchas, 2 que hueles y 1 que saboreas.",
+    "close": "Cerrar"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "theme": "Tema",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro",
+    "themeSystem": "Sistema",
+    "notifications": "Notificaciones",
+    "privacy": "Privacidad",
+    "account": "Cuenta",
+    "deleteAccount": "Eliminar Cuenta",
+    "deleteWarning": "Esta acción no se puede deshacer",
+    "logout": "Cerrar Sesión",
+    "saveSuccess": "¡Configuración guardada!",
+    "languages": {
+      "en": "English",
+      "es": "Español",
+      "hi": "हिन्दी",
+      "fr": "Français",
+      "bn": "বাংলা"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "date": "Fecha",
+    "time": "Hora",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "week": "Esta Semana",
+    "month": "Este Mes",
+    "year": "Este Año",
+    "all": "Todos"
+  }
+}

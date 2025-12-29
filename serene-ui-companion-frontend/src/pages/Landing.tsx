@@ -11,10 +11,12 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { useTranslation } from "react-i18next";
 
 const Landing = () => {
   const [feedback, setFeedback] = useState("");
   const { toast } = useToast();
+  const { t } = useTranslation();
 
   const handleFeedbackSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -32,12 +34,12 @@ const Landing = () => {
               <Heart className="w-4 h-4 text-white" />
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Serene
+              {t('app.name')}
             </h1>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/login">
-              <Button variant="ghost">Sign In</Button>
+              <Button variant="ghost">{t('auth.login')}</Button>
             </Link>
             <Link to="/signup">
               <Button className="bg-gradient-to-r from-blue-600 to-purple-600">
